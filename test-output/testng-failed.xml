@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <listeners>
+    <listener class-name="com.epaylater.keywords.Listner"/>
+  </listeners>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Epaylater.EpayLater_Testcases">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="login_EpayLater"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Epaylater.EpayLater_Testcases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
